@@ -7,8 +7,8 @@ import { API_BASE_URL, apiRequest } from "./lib/api";
 import TestPage from "./pages/TestPage";
 
 const initialUserForm = {
-  name: "Aarav Analyst",
-  email: "aarav@example.com",
+  name: "Adit Analyst",
+  email: "adit@example.com",
   role: "analyst",
   status: "active",
 };
