@@ -68,6 +68,12 @@ button {
 .secondary-button {
   background: transparent;
   color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
 }
 
 .app-shell {
@@ -96,6 +102,12 @@ button {
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   letter-spacing: -0.03em;
   margin: 0;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .eyebrow {
@@ -132,6 +144,23 @@ button {
 .nav-link.active {
   color: var(--text);
   border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  cursor: pointer;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: block;
 }
 
 .control {
