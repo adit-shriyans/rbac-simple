@@ -10,9 +10,13 @@ be/.ruff_cache/
 be/.venv/
 be/test_reports/
 be/test_finance.db
+be/test_finance.db-journal
 be/*.db
+be/*.db-journal
 be/*.sqlite
+be/*.sqlite-journal
 be/*.sqlite3
+be/*.sqlite3-journal
 be/junit.xml
 be/.coverage
 be/htmlcov/
