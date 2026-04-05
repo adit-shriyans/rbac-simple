@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+be/.env
+fe/.env
+be/.pytest_cache/
+be/.mypy_cache/
+be/.ruff_cache/
+be/.venv/
+be/alembic/versions/
+fe/node_modules/
+fe/dist/
