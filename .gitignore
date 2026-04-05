@@ -8,6 +8,14 @@ be/.pytest_cache/
 be/.mypy_cache/
 be/.ruff_cache/
 be/.venv/
+be/test_reports/
+be/test_finance.db
+be/*.db
+be/*.sqlite
+be/*.sqlite3
+be/junit.xml
+be/.coverage
+be/htmlcov/
 be/alembic/versions/
 fe/node_modules/
 fe/dist/
